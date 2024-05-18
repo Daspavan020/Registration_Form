@@ -2,6 +2,7 @@ CaptureIt Registration Form 📃 :-
 
 
 Welcome to the CaptureIt Registration Form project! This project contains the source code for a registration form component used in the CaptureIt application.
+A look into the webpage (Registration Page) : https://captureit-registration.vercel.app/
 
 • Table of Contents
   - [Introduction](#introduction)

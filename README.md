@@ -27,12 +27,13 @@ To set up the registration form locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/captureit-registration-form.git
+    git clone https://github.com/Daspavan02/Registration_Form.git
+    
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd captureit-registration-form
+    cd Registration_Form
     ```
 
 3. Open the `index.html` file in your web browser to view the form:

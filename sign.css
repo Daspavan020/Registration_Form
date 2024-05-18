@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(support/jose-ignacio-pompe-VkF6IXHVIvA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-image: url(support/paul-green-mln2ExJIkfc-unsplash.jpg);
+    background-color: #f4f4f4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background-image: url(support/paul-green-mln2ExJIkfc-unsplash.jpg); */
+    background-color: #dfe9ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(231, 228, 228, 0.1);
+    border-bottom-right-radius: 65px;
+    border-top-left-radius: 35px ;
+    box-shadow: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    /* border-color: #ffffff; */    
+}
+.glass{
+    background: linear-gradient( rgba(104, 138, 234, 0.47),rgba(191, 209, 224, 0.69));
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border-bottom-right-radius: 65px;
+    border-top-left-radius: 35px ;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    /* border-radius: 4px; */
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #1b47a3;
+    opacity: 0.5;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #224591;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #062055;
+    /* background-color: #4cae4c; */
+}
+
+.signup-option,
+.signin-option {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-option p,
+.signin-option p {
+    margin: 0;
+}
+
+.signup-option a,
+.signin-option a {
+    color: #1b47a3;
+    text-decoration: none;
+}
+
+.signup-option a:hover,
+.signin-option a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .container {
+        padding: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-group input,
+    .form-group button {
+        padding: 8px;
+    }
+
+    .form-group button {
+        font-size: 14px;
+    }
+
+    .signup-option,
+    .signin-option 
+    {
+        margin-top: 15px;
+    }
+
+    /* .right 
+    {
+        display: flex;
+        flex-direction: column;
+        grid-column: span 2 / span 2;
+        justify-content: center;
+        align-items: center;
+      } */
+
+    /* .tit {
+        font-size: 3.75rem;
+        line-height: 1;
+        font-weight: 700;
+        color: #fde047;
+      }
+      .de{
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+      } */
+
+
+
+}

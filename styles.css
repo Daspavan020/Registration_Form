@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    background-image: url(support/paul-green-mln2ExJIkfc-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #2F58CD;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #999;
+    opacity: 0.8;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #2F58CD;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #4cae4c;
+}
+
+.signin-option {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-option p {
+    margin: 0;
+}
+
+.signin-option a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.signin-option a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .container {
+        padding: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-group input,
+    .form-group button {
+        padding: 8px;
+    }
+
+    .form-group button {
+        font-size: 14px;
+    }
+
+    .signin-option {
+        margin-top: 15px;
+    }
+}

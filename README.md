@@ -9,7 +9,6 @@ Welcome to the CaptureIt Registration Form project! This project contains the so
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
-  - [License](#license)
 
 • Introduction
 
@@ -64,10 +63,6 @@ We welcome contributions to improve the CaptureIt Registration Form. To contribu
     git push origin feature/your-feature-name
     ```
 6. Open a Pull Request.
-
-• License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
